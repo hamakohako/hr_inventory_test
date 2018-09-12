@@ -11,5 +11,6 @@ setup(
     author='Hako',
     author_email='hamakohako@yahoo.com',
     packages=find_packages('src'),
-    package_dir={'': 'src'}
+    package_dir={'': 'src'},
+    entry_points={'console_scripts': 'hr=hr.cli:main'}
 )
